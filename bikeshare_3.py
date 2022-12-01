@@ -19,7 +19,7 @@ def retrieve_city():
     elif city == 'Washington' or city == 'washington':
         return 'washington.csv'
     else:
-        print("\nThat is not a valid city for input. Please try again.")
+        print("\nOops! You entered an invalid city! Please try again.")
         return retrieve_city()
 
 
