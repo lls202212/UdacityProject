@@ -11,7 +11,7 @@ def retrieve_city():
         File name for a city\'s data in string format.
     '''
     city = input('\nHello! I am Awesome-O 2000! Let\'s explore some US bikeshare data!\n'
-                 'Would you like to see bikeshare data for Chicago, New York City, or Washington DC?\n').title()
+                 'There is data available for Chicago, New York City, or Washington DC?\n').title()
     if city == 'Chicago' or city == 'chicago':
         return 'chicago.csv'
     elif city == 'New York' or city == "new york" or city == 'New York City' or city == 'new york city':
